@@ -1,0 +1,35 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.text-left .login-accounts {
+    margin-top: 30px;
+}
+
+    .text-left .login-accounts div {
+        display: inline-block;
+        margin-right: 200px;
+    }
+
+        .text-left .login-accounts div:last-child {
+            margin-right: 0;
+        }
+
+    .text-left .login-accounts p {
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }

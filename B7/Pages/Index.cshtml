@@ -1,0 +1,27 @@
+﻿@page
+@using Biblioteka.Pages
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-left">
+    <h3 class="display-6"><b>Možete se logovati sa sledećim nalozima</b></h3>
+
+    <div class="login-accounts">
+        <div>
+            <p>Korisničko ime: Test</p>
+            <p>Lozinka: Test123.</p>
+        </div>
+        <div>
+            <p>Korisničko ime: Test2</p>
+            <p>Lozinka: Test2123.</p>
+        </div>
+    </div>
+    <hr />
+</div>
+<p>
+        <a class="text-primary" id="register" asp-area="Identity" asp-page="/Account/Register">Registrujte se</a> ako nemate nalog
+</p>
+
+

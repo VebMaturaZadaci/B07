@@ -1,0 +1,41 @@
+﻿@page
+@model B7.Pages.PregledModel
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                ISBN
+            </th>
+            <th>
+                Naslov
+            </th>
+            <th>
+                Stanje
+            </th>
+            <th>
+                Citano
+            </th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.listaKnjiga)
+        {
+            <tr>
+                <td>
+                    @item.ISBN
+                </td>
+                <td>
+                    @item.Naslov
+                </td>
+                <td>
+                    @item.Stanje
+                </td>
+                <td>
+                    @item.Citano
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
